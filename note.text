@@ -1,0 +1,31 @@
+ <!-- header start -->
+     <header>
+        <!-- menu start -->
+         <div class="flex justify-center mt-8">
+            <a href="index.html"><img class="cursor-pointer" src="img/logo-regular-free-img.png" alt=""></a>
+         </div>
+         <div class="mt-8 lg:block md:block sm: hidden">
+            <ul class="flex justify-center gap-8">
+                <li><a class="text-white" href="#">HOME</a></li>
+                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">Menu</a></li>
+                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">LOCATION & SCHEDULE</a></li>
+                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">ABOUT</a></li>
+                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">CONTACT</a></li>
+            </ul>
+         </div>
+        <!-- menu end -->
+         <!-- banner start -->
+          <div class="flex lg:flex-row md:flex-col-reverse sm: flex-col-reverse justify-center items-center lg:gap-24 md:gap-16 gap-12 lg:mt-36 md:mt-20 sm: text-center  mt-10">
+            <div>
+                <h1 class="text-[120px] font-fijalla text-white text-normal lg:text-[120px] md:text-[90px] text-[60px] lg:leading-[168px] md:leading-[130px] sm: leading-[100px] mb-4">just <br> grill it</h1>
+                 <div class="w-16 border-b-8"></div>
+                <p class="text-[#E3C7C4] mt-8 md:text-start sm: text-center ">Etiam pharetra, erat sed fermentum <br> feugiat, velit mauris egestas qua aliquam.</p>
+               
+            </div>
+            <div>
+                <img src="img/truck-0001-free-img.png" alt="food truck">
+            </div>
+          </div>
+         <!-- banner end -->
+     </header>
+    <!-- header end -->
