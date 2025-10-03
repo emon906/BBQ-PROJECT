@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BBQ PROJECT</title>
-    <!-- tailwind -->
+    <!-- tailwind and daisy ui -->
        <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind -->
+       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind and daisy ui -->
      <!-- font awosome -->
       <script src="https://kit.fontawesome.com/2489740162.js" crossorigin="anonymous"></script>
      <!-- font awosome -->
@@ -30,81 +32,89 @@
     <!-- header start -->
      <header>
         <!-- menu start -->
-         <div class="flex justify-center mt-8">
-            <a href="index.html"><img class="cursor-pointer" src="img/logo-regular-free-img.png" alt=""></a>
+ <div class="flex justify-center mt-8">
+      <a href="index.html"><img class="cursor-pointer" src="img/logo-regular-free-img.png" alt=""></a>
          </div>
-         <div class="mt-8 lg:block md:block sm: hidden">
-            <ul class="flex justify-center gap-8">
-                <li><a class="text-white" href="#">HOME</a></li>
-                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">Menu</a></li>
-                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">LOCATION & SCHEDULE</a></li>
-                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">ABOUT</a></li>
-                <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">CONTACT</a></li>
-            </ul>
-         </div>
-        <!-- menu end -->
+    <div class="mt-8 lg:block md:block sm: hidden">
+    <ul class="flex justify-center gap-8">
+        <li><a class="text-white" href="#">HOME</a></li>
+           <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">Menu</a></li>
+        <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">LOCATION & SCHEDULE</a></li>
+           <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">ABOUT</a></li>
+        <li><a class="text-[#ffffffb3] hover:text-white delay-100" href="#">CONTACT</a></li>
+          </ul>
+    </div>
+ <!-- menu end -->
          <!-- banner start -->
-          <div class="flex lg:flex-row md:flex-col-reverse sm: flex-col-reverse justify-center items-center lg:gap-24 md:gap-16 gap-12 lg:mt-36 md:mt-20 sm: text-center  mt-10">
-            <div>
+   <div class="flex lg:flex-row md:flex-col-reverse sm: flex-col-reverse justify-center items-center lg:gap-24 md:gap-16 gap-12 lg:mt-36 md:mt-20 sm: text-center  mt-10">
+      <div>
                 <h1 class="font-fijalla text-white text-normal xl:text-[120px] lg:text-[100px] md:text-[90px] text-[60px] lg:leading-[168px] md:leading-[130px] sm: leading-[100px] mb-4">just <br> grill it</h1>
                  <div class="w-16 border-b-8 lg:ml-0 sm: ml-24"></div>
-                <p class="text-[#E3C7C4] mt-8 md:text-start sm: text-center ">Etiam pharetra, erat sed fermentum <br> feugiat, velit mauris egestas qua aliquam.</p>
+           <p class="text-[#E3C7C4] mt-8 md:text-start sm: text-center ">Etiam pharetra, erat sed fermentum <br> feugiat, velit mauris egestas qua aliquam.</p>
                
-            </div>
-            <div>
+     </div>
+    <div>
                 <img src="img/truck-0001-free-img.png" alt="food truck">
-            </div>
+       </div>
           </div>
          <!-- banner end -->
      </header>
     <!-- header end -->
      <!-- section start -->
-      <section>
+ <section>
         <!-- our daily start -->
-         <div class="grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 mt-20 mb-20 gap-4">
+       <div class="flex justify-center">
+          <div class="grid lg:grid-cols-4 md:grid-cols-2 sm: grid-cols-1 mt-20 mb-20 gap-4">
             <div class="border-t border-b border-l border-orange-700 xl:p-[75px] lg:p-[30px] md:p-[40px] sm: p-[30px]">
                 <h2 class="text-white font-fijalla xl:text-[80px] lg:text-[60px] md:text-[60px] sm: text-[40px]">our <br> daily <br> specials</h2>
-                <div class="w-16 border-b-8 border-orange-500"></div>
+                 <div class="w-16 border-b-8 border-orange-500"></div>
                 <p class="text-[#E3C7C4] mt-4 font-open-sans">Lorem ipsum dolor sit amet, <br> 
                 consectetur adipiscing elit. Ut elit <br> tellus, 
                 luctus nec ullamcorper <br> mattis.</p>
             </div>
             <div class="border-t border-b border-l border-orange-700 xl:p-[75px] lg:p-[30px] md:p-[40px] sm: p-[30px]">
-                <img class="mb-10" src="img/product-01-free-img.png" alt="product-01">
-                 <hr class="w-14 h-2.5 mx-auto rotate-90 bg-orange-500">
+                <img class="mb-10" src="img/product-01-free-img.png" alt="product-01">                 
+            <div class="flex justify-center">
+              <div class="w-16 h-3 rounded-lg bg-orange-600 rotate-90">
+              </div>
+            </div>
                 <h3 class="xl:text-[30px] lg:text-[24px] font-fijalla text-white text-center lg:mt-20 md:mt-16 sm: mt-10">grilled pork ribs</h3>
                 <h4 class="text-base font-fijalla text-white text-center mt-5">$ 35.50</h4>
             </div>
             <div class="border-t border-b border-l border-orange-700 xl:p-[75px] lg:p-[30px] md:p-[40px] sm: p-[30px]">
                 <img class="mb-10" src="img/product-02-free-img.png" alt="product-02">
-                 <hr class="w-14 h-2.5 mx-auto rotate-90 bg-orange-500">
+                 <div class="flex justify-center">
+              <div class="w-16 h-3 rounded-lg bg-orange-600 rotate-90">
+              </div>
+            </div>
                 <h3 class="xl:text-[30px] lg:text-[24px] font-fijalla text-white text-center lg:mt-20 md:mt-16 sm: mt-10">grilled pork ribs</h3>
                 <h4 class="text-base font-fijalla text-white text-center mt-5">$ 35.50</h4>
             </div>
             <div class="border-t border-b border-l border-orange-700 xl:p-[75px] lg:p-[30px] md:p-[40px] sm: p-[30px]">
                 <img class="mb-10" src="img/product-03-free-img.png" alt="product-03">
-                <hr class="w-14 h-2.5 mx-auto rotate-90 bg-orange-500">
+               <div class="flex justify-center">
+              <div class="w-16 h-3 rounded-lg bg-orange-600 rotate-90">
+              </div>
+            </div>
                 <h3 class="xl:text-[30px] lg:text-[24px] font-fijalla text-white text-center lg:mt-20 md:mt-16 sm: mt-10">grilled pork ribs</h3>
                 <h4 class="text-base font-fijalla text-white text-center mt-5">$ 35.50</h4>
             </div>
          </div>
+       </div>
         <!-- our daily end -->
          <!-- menu start -->
-          <div class="text-center mb-10">
+<div class="text-center mb-10">
             <hr class="w-14 h-2.5 mx-auto rotate-90 bg-orange-500">
             <h1 class="font-fijalla text-[#E3C7C4] lg:text-[80px] md:text-[60px] sm: text-[50px] xl:mt-3 lg:mt-3 md:mt-3 sm: mt-10">menu</h1>
             <p class="text-[#E3C7C4] font-open-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
-          </div>
+ </div>
           <div style="background-position: right; background-size: cover; background-repeat: no-repeat; background-image: url(./img/bg-00003-free-img.png);">
             <div class="max-w-[940px] mx-auto">
-            <div class="flex justify-evenly gap-2 mb-5 items-center md:flex-row flex-col shadow-xl p-5 border-l-[1px] border-yellow-500 bg-transparent bg-gradient-r from-[#A23A39] to-[#A43F38]">
-                <img src="img/menu-01-free-img.jpg" alt="">
+            <div class="flex justify-evenly gap-2 mb-5 items-center md:flex-row flex-col shadow-xl p-5 border-l-[1px] border-yellow-500 bg-transparent bg-gradient-r from-[#A23A39] to-[#A43F38]">        <img src="img/menu-01-free-img.jpg" alt="">
                 <h3 class="text-2xl font-fijalla font-normal text-white">Grilled Toast Burger</h3>
                 <p class="text-[#E3C7C4] font-open-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
-                <h4 class="text-2xl font-fijalla font-normal text-white">$35.00</h4>
-            </div>
-            <div class="flex justify-between gap-2 mb-5 items-center md:flex-row flex-col shadow-xl p-5 border-l-[1px] border-yellow-500 bg-transparent bg-gradient-r from-[#A23A39] to-[#A43F38]">
-                <img src="img/menu-01-free-img.jpg" alt="">
+                <h4 class="text-2xl font-fijalla font-normal text-white">$35.00</h4> </div>
+            <div class="flex justify-between gap-2 mb-5 items-center md:flex-row flex-col shadow-xl p-5 border-l-[1px] border-yellow-500 bg-transparent bg-gradient-r from-[#A23A39] to-[#A43F38]">      <img src="img/menu-01-free-img.jpg" alt="">
                 <h3 class="text-2xl font-fijalla font-normal text-white">Porterhouse Steak</h3>
                 <p class="text-[#E3C7C4] font-open-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
                 <h4 class="text-2xl font-fijalla font-normal text-white">$25.50</h4>
@@ -120,8 +130,8 @@
                 <h3 class="text-2xl font-fijalla font-normal text-white">Grilled Spicy Chicken</h3>
                 <p class="text-[#E3C7C4] font-open-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
                 <h4 class="text-2xl font-fijalla font-normal text-white">$22.00</h4>
-            </div>
-            <div class="flex justify-between gap-2 mb-5 items-center md:flex-row flex-col shadow-xl p-5 border-l-[1px] border-yellow-500 bg-transparent bg-gradient-r from-[#A23A39] to-[#A43F38]">
+  </div>
+ <div class="flex justify-between gap-2 mb-5 items-center md:flex-row flex-col shadow-xl p-5 border-l-[1px] border-yellow-500 bg-transparent bg-gradient-r from-[#A23A39] to-[#A43F38]">
                 <img src="img/menu-01-free-img.jpg" alt="">
                 <h3 class="text-2xl font-fijalla font-normal text-white">New York Strip Steak</h3>
                 <p class="text-[#E3C7C4] font-open-sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper.</p>
@@ -136,20 +146,20 @@
           </div>
           </div>
          <!-- menu end -->
-           <div class="max-w-[940px] mx-auto">
+  <div class="max-w-[940px] mx-auto">
             <!-- location -->
-            <h2 class="font-fijalla text-7xl text-white font-bold mt-32 mb-14">location <br><br> &schedule</h2>
+  <h2 class="font-fijalla text-7xl text-white font-bold mt-32 mb-14">location <br><br> &schedule</h2>
             <div class="border-b-8 w-20 border-orange-500"></div>
             <!-- location -->
-             <!-- time and place -->
+   <!-- time and place -->
               <div class="flex justify-center mt-32">
                 <!-- flex -->
                  <div class="grid gap-4 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2">
                     <!-- grid -->
-                     <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
+    <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
                         <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
-                        <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
-                       <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
+                 <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
+            <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
                         <div class="px-4 mt-14">
                         <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>    
                         <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
@@ -159,45 +169,45 @@
                         <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
                         <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
                         <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
-                        <div class="px-4 mt-14">
-                         <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>   
+             <div class="px-4 mt-14">
+               <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>   
                           <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>  
                         </div>
                      </div>
-                     <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
-                        <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
+           <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
+            <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
                         <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
-                        <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
-                        <div class="px-4 mt-14">                            
+               <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
+              <div class="px-4 mt-14">                            
                         <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>
-                        <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
+            <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
                         </div>
-                     </div>
-                     <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
-                        <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
-                        <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
-                        <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
-                        <div class="px-4 mt-14">
-                            <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>
+           </div>
+         <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
+                  <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
+                   <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
+                   <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
+                 <div class="px-4 mt-14">
+                    <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>
                             <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>   
-                        </div>
+                   </div>
                      </div>
                      <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
                         <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
+             <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
+            <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
+             <div class="px-4 mt-14">
+             <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>
+                        <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
+            </div>
+            </div>
+                     <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
+               <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
                         <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
                         <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
                         <div class="px-4 mt-14">
                         <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>
-                        <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
-                        </div>
-                     </div>
-                     <div class="border-2 border-orange-700 p-6 transition duration-150 hover:border-orange-500">
-                        <h4 class="text-white font-fijalla mb-2">20 - 27 October</h4>
-                        <h3 class="font-fijalla text-white text-4xl mb-6">Brooklyn</h3>
-                        <div class="border-b-4 w-12 border-orange-600 ml-2"></div>
-                        <div class="px-4 mt-14">
-                        <i class="fa-solid fa-location-dot" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">20 Cooper Square, NY 10003</a></i>
-                        <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
+            <i class="fa-solid fa-clock" style="color: orange;"><a class="text-white ml-3 font-fijalla" href="#">09:00 - 18:00</a></i>
                         </div>
                      </div>
                     <!-- grid -->
@@ -222,7 +232,7 @@
                 </div>
                 </div>
                <!-- john oliver -->
-      </section>
+</section>
      <!-- section end -->
       <!-- footer -->
        <footer class="bg-[#A84938] mt-10 py-8">
